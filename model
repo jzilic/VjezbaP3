@@ -1,0 +1,70 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ffos.model;
+
+import java.util.Date;
+
+/**
+ *
+ * @author tjakopec
+ */
+public class Operater {
+    
+    private int sifra;
+    private String ime;
+    private Date datum_proizvodnje;
+    private String brzina;
+    private String drzava;
+
+    public int getSifra() {
+        return sifra;
+    }
+
+    public void setSifra(int sifra) {
+        this.sifra = sifra;
+    }
+
+    public String getIme() {
+        return ime;
+    }
+
+    public void setIme(String ime) {
+        this.ime = ime;
+    }
+
+    public Date getDatum_proizvodnje() {
+        return datum_proizvodnje;
+    }
+
+    public void setDatum_proizvodnje(Date datum_proizvodnje) {
+        this.datum_proizvodnje = datum_proizvodnje;
+    }
+
+    public String getBrzina() {
+        return brzina;
+    }
+
+    public void setBrzina(String brzina) {
+        this.brzina = brzina;
+    }
+
+    public String getDrzava() {
+        return drzava;
+    }
+
+    public void setDrzava(String drzava) {
+        this.drzava = drzava;
+    }
+
+    @Override
+    public String toString() {
+        return ime;
+    }
+
+
+    
+    
+}
